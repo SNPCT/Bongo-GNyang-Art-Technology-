@@ -29,10 +29,10 @@ void draw() {
   background(240);
   
   // 1. 마우스 움직임 감지
-  if (millis() - lastCheckTime >= 200) {
+  if (millis() - lastCheckTime >= 10) {
     int moveDiff = mouseX - pastMouseX;
-    if (moveDiff >= 50) digit2 = 3;
-    else if (moveDiff <= -50) digit2 = 1;
+    if (moveDiff >= 20) digit2 = 3;
+    else if (moveDiff <= -20) digit2 = 1;
     else digit2 = 2;
     
     pastMouseX = mouseX;

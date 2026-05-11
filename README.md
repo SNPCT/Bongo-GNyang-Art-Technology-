@@ -5,3 +5,5 @@
 260507a <- 키보드 입력, 마우스 움직임 구현 (색깔 변환 안됨)
 
 catbypart <- affinity 고양이 파일
+
+bongognyangforwin <- windows용 프로그램 (readme 읽어보고 테스트 ㄱ)
